@@ -1,9 +1,10 @@
 
 # Task 1: Public Transportation Module
-
+# Imports
 import public_transportation as p_t
 
-mock_bus = p_t.Bus(0,0)
+#Script
+mock_bus = p_t.Bus(0, 0)
 mock_bus.add_bus_route(80)
 mock_bus.add_bus_route(100)
 mock_bus.add_bus_route(40)
